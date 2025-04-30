@@ -5,7 +5,7 @@ The 2d curve texture based on CocosCreater can be edited in real time in the edi
 
 ## 如何获取 How to get it
 
-1. 在 [Cocos Store](store.cocos.com) 中搜索 曲线纹理/soida/CurveTexture 关键字即可看到.
+1. 在 [Cocos Store](https://store.cocos.com) 中搜索 曲线纹理/soida/CurveTexture 关键字即可看到.
 2. 下载或者安装后(或许需要重启编辑器),在某个节点的`属性检查器`中点击最下方的`添加组件/add a component`,搜索`CurveTexture2d/曲线纹理2d`即可添加成功. 见下图:
 
    ![](./imgs/help1.jpg)
