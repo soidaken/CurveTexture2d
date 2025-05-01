@@ -4,7 +4,8 @@
 The 2d curve texture based on CocosCreater can be edited in real time in the editor
 
 ```
-新的 3.8.x / 2.4.x 版本插件很快就提交商店审核上线,此文档对应新的3.8.x版本插件
+新的 3.8.x / 2.4.x 版本插件很快就提交商店审核上线,此文档对应新的3.8.x版本插件.
+如果你是中国区域开发者,可以加入QQ群:1044961417获取最新消息
 ```
 
 ## 如何获取 How to get it
