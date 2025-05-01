@@ -3,7 +3,11 @@
 基于 CocosCreater 实现的 2d 的曲线纹理,可在编辑器中实时编辑.  
 The 2d curve texture based on CocosCreater can be edited in real time in the editor
 
-## 如何获取 How to get / buy it
+```
+新的 3.8.x / 2.4.x 版本插件很快就提交商店,此文档对应新的3.8.x版本插件
+```
+
+## 如何获取 How to get it
 
 1. 在 [Cocos Store](https://store.cocos.com) 中搜索 soida/曲线纹理/CurveTexture/curve 等关键字即可看到.
 2. 此插件目前支持 CocosCreater 3.8.x 系列的版本,其它 3.x 的版本暂未测试,你也可以试试.
@@ -15,12 +19,12 @@ The 2d curve texture based on CocosCreater can be edited in real time in the edi
 
 ## 如何使用 how to use it
 
-1. 你需要提前对编辑器进行如下设置,方便后续操作.
+1. 需要提前对编辑器进行如下设置,方便后续操作.
    <p align="center">
-   <img src="./imgs/9.jpg"  />
+   <img src="./imgs/9_zh.jpg"  />
    </p>
           <p align="center">
-     <img src="./imgs/10.jpg"  />
+     <img src="./imgs/10_zh.jpg"  />
    </p>
 2. 如果你已经成功添加`CurveTexture`组件,恭喜你,成功了一半.
 3. 你会看到伴随`CurveTexture`组件同时自动添加了一个`cc.MeshRenderer`组件,不用设置它,让它在那里就行.
@@ -51,6 +55,10 @@ The 2d curve texture based on CocosCreater can be edited in real time in the edi
 8. 不用担心这些控制点,它们会在实际运行的时候被清除掉.
    ![](./imgs/help5.gif)
 9. 如果你要替换为自己的纹理,请确保`纹理的宽和高都是2的幂` ,比如 `512*512` / `256*64`:
+<p align="center">
+<img src="./imgs/help7.jpg" alt="帮助图片" />
+</p>
+
 10. 如果你觉纹理显示的效果上下颠倒了,可以尝试调整`Upside Down`
 11. 如果你的纹理显示的效果透明部分有异常,可以尝试调整 `If the texture has transparency`
 12. CurveTexture 组件有两种模式,`VERTICAL_MODE` 和 `TANGENT_MODE`
@@ -95,17 +103,17 @@ The 2d curve texture based on CocosCreater can be edited in real time in the edi
    <img src="./imgs/20.gif" alt="帮助图片" />
    </p>
 
-17. 地形控制点颜色,当你场景中有多个`CurveTexture`组件节点时,你需要
+17. 地形控制点颜色,当场景中有多个`CurveTexture`组件节点时,为了区分:
 <p align="center">
 <img src="./imgs/21.gif" alt="帮助图片" />
 </p>
 
-18. 地形控制点的贴图纹理,当你想换个贴图
+18. 地形控制点的贴图纹理,可以根据需要更换
 <p align="center">
 <img src="./imgs/22.gif" alt="帮助图片" />
 </p>
 
-19. 一定有细心的人注意到最上面有个跟随模式,那看下效果:
+19. `开启跟随模式`,将另一个`CurveTexture`组件节点作为`跟随目标`
 <p align="center">
 <img src="./imgs/23.gif" alt="帮助图片" />
 </p>
